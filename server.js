@@ -16,7 +16,6 @@ app.get("/", function(req, res) {
 app.get("/store", function(req, res) {
   console.log("Hej, jestem posrednikiem przy żądaniu do /store");
   res.end("To jest sklep");
-  next();
 });
 
 app.get("/userform", function(req, res) {
